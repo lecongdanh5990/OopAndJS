@@ -5,9 +5,7 @@ function Stopwatch() {
   this.start = function() {
     if (running) 
       throw new Error('Stopwatch has already started.');
-    
     running = true; 
-
     startTime = new Date();
   };
 
